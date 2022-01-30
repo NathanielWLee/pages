@@ -1,1 +1,1 @@
-https://nathanielwlee.github.io/home/
+https://nathanielwlee.github.io/pages/
