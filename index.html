@@ -1,12 +1,138 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1></h1>
-  <p>Hello</p>
-  <p>World</p>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>About Me</title>
+    <link href="stylesheets/site.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="navbar">
+  <p class="name">Tamal K. Dey</p>
+  <div class="links">
+    <div class="dropdown">
+      <a href = "index.html" class="button dropbtn active">About Me</a>
+    </div>
+    <div class="dropdown">
+      <a href = "research.html" class="button dropbtn">Research ▼</a>
+      <div class="dropdown-content">
+        <a href="research.html#publications">Publications</a>
+        <a href="research.html#personnel">Personnel</a>
+        <a href="research.html#projects">Projects</a>
+        <a href="research.html#software">Software</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a href = "activities.html" class="button dropbtn">Activites ▼</a>
+      <div class="dropdown-content">
+        <a href="activities.html#committees">Committees</a>
+        <a href="activities.html#talks">Talks</a>
+        <a href="activities.html#other">Other</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <div id="content">
+  <br>
+  <br>
+  <div class="mugshot">
+    <img src="images/dey.jpg" alt="headshot" class="headshot" />
+  </div>
+  <h1 style="color:crimson" class="contact head">Contact</h1>
+  <p class="contact">
+    <strong>Office</strong>
+    : Dreese Lab 420
+    <br>
+    <strong>Phone</strong>
+    : (614) 292-3563
+    <br>
+    <strong>Email</strong>
+    : tamaldey@cse.ohio-state.edu
+  </p>
+  <h1 style="color:crimson" class="about head">About Me</h1>
+  <p class="about">
+    I am a professor in the
+    <a href="https://cse.osu.edu/">Department of Computer Science and Engineering</a>
+    at
+    <a href="https://www.osu.edu/">The Ohio State University</a>
+    and a fellow member of the
+    <a href="https://www.acm.org/media-center/2018/december/fellows-2018">ACM</a>,
+    <a href="https://ieeexplore.ieee.org/author/37564265400">IEEE</a>,
+    and
+    <a href="http://solidmodeling.org/awards/sma-fellows/sma-fellows-2019/">SMA</a>.
+    Prior to joining OSU, I spent two years as a postdoctoral researcher at the University of Illinois at Urbana-Champaign. Before that, I received my Ph.D. from Purdue University, Master's at the Indian Institute of Science Bangalore, and Bachelor's at Jadavpur University in Kolkata.
+  </p>
+  <h1 style="color:crimson" class="teaching head">Teaching</h1>
+  <div class="teaching">
+    <table style="width:100%">
+      <tr>
+        <th>Course #</th>
+        <th>Course Name</th>
+        <th>Taught</th>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2331.pdf">CSE 2331</a>
+        </td>
+        <td>Foundations II: Data Structures and Algorithms</td>
+        <td>AU15</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://web.cse.ohio-state.edu/~dey.8/course/6331/">CSE 6331</a>
+        </td>
+        <td>Algorithms</td>
+        <td>AU12</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://web.cse.ohio-state.edu/~dey.8/course/6332/">CSE 6332</a>
+        </td>
+        <td>Advanced Algorithms</td>
+        <td>SP19</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html">CSE 5339/5559</a>
+        </td>
+        <td>Computational Topography and Data Analysis</td>
+        <td>AU13, SP17</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://web.cse.ohio-state.edu/~dey.8/course/784/syllabus.html">CSE 5543</a>
+        </td>
+        <td>Geometric Modeling</td>
+        <td>SP18</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Shape Modeling in Graphics and Visualization</td>
+        <td>SP00</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Subdivision Surfaces</td>
+        <td>AU00</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://web.cse.ohio-state.edu/~dey.8/course/625/">CSE 3321</a>
+        </td>
+        <td>Formal Languages and Automata Theory</td>
+        <td>AU09</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://web.cse.ohio-state.edu/~dey.8/course/788/">CIS 788</a>
+        </td>
+        <td>Sample Based Geometric Modeling for Graphics and Visualization</td>
+        <td>AU05</td>
+      </tr>
+    </table>
+  </div>
+</div>
+  </body>
 </html>
